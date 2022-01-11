@@ -21,7 +21,7 @@ int main(int argc, char const * const argv[])
 
     // Keep track of all the numbers; we're going to need them later.
     std::vector<int> numbers;
-    int digits;
+    int digits = 0;
 
     for (std::string line; (!fstr.eof())
             && (fstr.peek() != std::ifstream::traits_type::eof())
